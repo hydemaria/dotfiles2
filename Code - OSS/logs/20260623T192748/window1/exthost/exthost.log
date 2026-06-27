@@ -1,0 +1,43 @@
+2026-06-23 19:27:51.082 [info] Extension host with pid 3427 started
+2026-06-23 19:27:51.526 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-23 19:27:51.574 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-23 19:27:51.638 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-23 19:27:51.641 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-06-23 19:27:51.689 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-23 19:27:51.757 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-23 19:27:51.873 [info] Eager extensions activated
+2026-06-23 19:27:51.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:27:51.923 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:27:51.952 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:27:52.152 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:27:52.180 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:27:52.193 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-06-23 19:42:34.674 [info] Extension host terminating: received terminate message from renderer
+2026-06-23 19:42:34.688 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-06-23 19:42:34.692 [error] Error: Channel has been closed
+	at r (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:541:3935)
+	at Object.info (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:541:4305)
+	at Logger.info (/home/maria/.vscode-oss/extensions/eamodio.gitlens-18.2.0-universal/dist/gitlens.js:19:39718)
+	at GkCliIntegrationProvider.stop (/home/maria/.vscode-oss/extensions/eamodio.gitlens-18.2.0-universal/dist/gitlens.js:526:43455)
+	at GkCliIntegrationProvider.dispose (/home/maria/.vscode-oss/extensions/eamodio.gitlens-18.2.0-universal/dist/gitlens.js:526:41985)
+	at /home/maria/.vscode-oss/extensions/eamodio.gitlens-18.2.0-universal/dist/gitlens.js:437:67272
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/maria/.vscode-oss/extensions/eamodio.gitlens-18.2.0-universal/dist/gitlens.js:437:67253)
+	at wn (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at XP._fn (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:18391)
+	at XP.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at SP._deactivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:14708)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:12010
+	at Array.map (<anonymous>)
+	at SP._deactivateAll (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:11998)
+	at SP.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:12349)
+	at i.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:540:1072)
+	at Js (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:837:11733)
+	at up.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:837:9880)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:837:8115)
+	at MessagePortMain.emit (node:events:509:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2934)
+2026-06-23 19:42:34.695 [info] Extension host with pid 3427 exiting with code 0

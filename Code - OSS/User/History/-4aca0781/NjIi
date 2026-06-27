@@ -1,0 +1,49 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 10,
+    "modules-left": ["custom/logo", "hyprland/workspaces"],
+    "modules-center": ["custom/music"],
+    "modules-right": ["cpu", "memory", "pulseaudio", "clock", "custom/power"],
+
+    "custom/logo": {
+        "format": "󰣇",
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+    "custom/music": {
+        "format": "󰝚 {}",
+        "exec": "playerctl --player=spotify metadata --format '{{ title }} - {{ artist }}' | cut -c1-30",
+        "interval": 5,
+        "tooltip": false
+    },
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "tooltip": true,
+        "tooltip-format": "Uso: {usage}%"
+    },
+    "memory": {
+        "format": "󰍛 {percentage}%",
+        "tooltip": true,
+        "tooltip-format": "Memória: {percentage}%"
+    },
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "tooltip": true,
+        "tooltip-format": "Volume: {volume}%"
+    },
+    "clock": {
+        "format": " 󰃭  {:%d/%m %H:%M}",
+        "tooltip": false
+    },
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "~/.config/waybar/scripts/power_menu.sh",
+        "tooltip": false
+    }
+}

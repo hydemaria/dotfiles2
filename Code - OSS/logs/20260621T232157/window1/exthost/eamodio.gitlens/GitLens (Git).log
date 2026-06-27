@@ -1,0 +1,2 @@
+2026-06-21 23:22:02.412 [error] [         70ms] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git

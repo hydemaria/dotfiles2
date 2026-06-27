@@ -1,0 +1,96 @@
+```css:Waybar Style:~/.config/waybar/style.css
+/* Configuração geral da barra e fundo */
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.75); /* Fundo escuro transparente */
+    border: 4px solid #ffb6c1;                 /* Borda rosa mais grossinha (mudado de 2px para 4px) */
+    border-radius: 10px;                       /* Aumentamos um pouquinho os cantos para acompanhar a borda */
+    color: #cdd6f4;                            /* Cor do texto geral */
+    font-family: "Sans", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Fundo transparente ao redor de cada módulo igual à imagem */
+#custom-logo,
+#workspaces,
+#custom-music,
+#cpu,
+#disk,
+#memory,
+#battery,
+#pulseaudio,
+#network,
+#language {
+    background-color: rgba(0, 0, 0, 0.25); 
+    padding: 4px 12px;
+    margin: 6px 4px;
+    border-radius: 6px;                    
+    transition: all 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+/* Ícone do Arch (Canto esquerdo) */
+#custom-logo {
+    color: #ffb6c1;
+    font-size: 15px;
+}
+
+/* --- Áreas de Trabalho (Workspaces) --- */
+/* Botões Inativos (visual clarinho padrão) */
+#workspaces button {
+    background-color: transparent;
+    color: rgba(205, 214, 244, 0.6); /* Clarinho transparente */
+    border-radius: 4px;
+    padding: 0px 8px;
+    transition: all 0.2s ease;
+}
+
+/* Efeito ao passar o mouse nas áreas de trabalho */
+#workspaces button:hover {
+    background-color: rgba(255, 182, 193, 0.2);
+    color: #ffb6c1;
+}
+
+/* Botão Ativo (visual rosa destacado) */
+#workspaces button.focused,
+#workspaces button.active {
+    background-color: #ffb6c1;          /* Fundo rosa sólido */
+    color: #1e1e2e;                    /* Texto escuro */
+}
+
+/* --- Módulos de Hardware --- */
+#custom-music, #cpu, #disk, #memory, #battery, #pulseaudio, #language, #network {
+    color: #ffb6c1; /* Texto e ícones em rosa */
+}
+
+/* Diminuindo especificamente a letra do CPU, Disk, RAM, Volume e Idioma */
+#cpu, 
+#disk, 
+#memory, 
+#pulseaudio, 
+#network,
+#language {
+    font-size: 11px; /* Letras mais delicadas nos cantos */
+}
+
+/* Efeito interativo: Brilho rosa suave ao passar o mouse sobre os blocos */
+#custom-logo:hover,
+#custom-music:hover,
+#cpu:hover,
+#disk:hover,
+#memory:hover,
+#battery:hover,
+#pulseaudio:hover,
+#network:hover,
+#language:hover {
+    background-color: rgba(255, 182, 193, 0.15);
+}
+
+/* --- Relógio (Destaque Rosa Sólido) --- */
+#clock {
+    background-color: #ffb6c1; 
+    color: #1e1e2e;                             
+    font-weight: bold;
+    padding: 4px 12px;
+    margin: 6px 4px;
+    border-radius: 6px;
+    margin-right: 6px;
+}

@@ -1,0 +1,76 @@
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85);
+    border: 4px solid #ffb6c1;
+    border-radius: 10px;
+    color: #cdd6f4;
+    font-family: "Sans", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+    /* Adicionamos um pequeno recuo interno na barra toda */
+    padding: 0 10px;
+}
+
+#custom-logo,
+#workspaces,
+#custom-music,
+#cpu,
+#disk,
+#memory,
+#pulseaudio,
+#language,
+#clock {
+    /* Aumentamos o espaçamento lateral interno */
+    padding: 2px 15px; 
+    /* Aumentamos a distância entre um botão e outro */
+    margin: 6px 8px; 
+}
+
+#custom-logo:hover,
+#custom-music:hover,
+#cpu:hover,
+#disk:hover,
+#memory:hover,
+#pulseaudio:hover,
+#language:hover {
+    background-color: rgba(255, 182, 193, 0.15);
+    box-shadow: 0 0 4px rgba(255, 182, 193, 0.4);
+}
+
+#custom-logo {
+    color: #ffb6c1;
+    font-size: 15px;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: rgba(205, 214, 244, 0.6);
+    border-radius: 4px;
+    padding: 0px 6px;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    background-color: #ffb6c1;          
+    color: #1e1e2e;                    
+}
+
+#custom-music, #cpu, #disk, #memory, #pulseaudio, #language {
+    color: #ffb6c1;
+}
+
+#cpu, 
+#disk, 
+#memory, 
+#pulseaudio, 
+#language {
+    font-size: 11px; 
+}
+
+#clock {
+    background-color: #ffb6c1;
+    color: #1e1e2e;                             
+    font-weight: bold;
+    padding: 4px 12px;
+    margin: 6px 4px;
+    border-radius: 6px;
+    margin-right: 6px;
+}

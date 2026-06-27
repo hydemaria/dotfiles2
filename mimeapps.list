@@ -1,0 +1,7 @@
+[Default Applications]
+text/plain=code-oss.desktop
+application/x-shellscript=code-oss.desktop
+
+[Added Associations]
+text/plain=code-oss.desktop;
+application/x-shellscript=code-oss.desktop;

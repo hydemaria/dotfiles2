@@ -1,0 +1,61 @@
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.75); /* Fundo sutil da barra */
+    border: 4px solid #ffb6c1;                 /* Borda rosa grossinha */
+    border-radius: 10px;                        
+    color: #cdd6f4;                            
+    font-family: "Sans", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Criando o fundo transparente ao redor de cada módulo igual à image_13e421.png */
+#custom-logo,
+#workspaces,
+#custom-music,
+#cpu,
+#disk,
+#memory,
+#battery,
+#pulseaudio,
+#network,
+#language {
+    background-color: rgba(0, 0, 0, 0.25); /* Fundo escuro sutil individual */
+    padding: 4px 12px;
+    margin: 6px 4px;
+    border-radius: 6px;                    /* Cantos arredondados da caixinha */
+}
+
+/* Ícone do Arch */
+#custom-logo {
+    color: #ffb6c1;
+    font-size: 15px;
+}
+
+/* Botões das Áreas de Trabalho */
+#workspaces button {
+    background-color: transparent;
+    color: rgba(205, 214, 244, 0.6);
+    border-radius: 4px;
+    padding: 0px 6px;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    background-color: #ffb6c1;          
+    color: #1e1e2e;                    
+}
+
+/* Cores dos ícones e textos da direita */
+#custom-music, #cpu, #disk, #memory, #battery, #pulseaudio, #language {
+    color: #ffb6c1;
+}
+
+/* O Relógio tem um destaque rosa sólido ao fundo na imagem */
+#clock {
+    background-color: #ffb6c1;
+    color: #1e1e2e;                             
+    font-weight: bold;
+    padding: 4px 12px;
+    margin: 6px 4px;
+    border-radius: 6px;
+    margin-right: 6px;
+}

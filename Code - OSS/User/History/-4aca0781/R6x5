@@ -1,0 +1,70 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 4,
+
+    "modules-left": ["custom/logo", "hyprland/workspaces"],
+    "modules-center": ["custom/music"],
+    "modules-right": ["cpu", "disk", "memory", "pulseaudio", "hyprland/language", "clock"],
+
+    "custom/logo": {
+        "format": "󰣇",
+        "tooltip": false
+    },
+
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+
+    "custom/music": {
+        "format": "[ 󰝚 {} ]",
+        "escape": true,
+        "exec": "playerctl --player=spotify metadata --format '{{ title }} - {{ artist }}' | cut -c1-30",
+        "interval": 5,
+        "tooltip": false
+    },
+
+    // Legenda do Processador
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "tooltip": true,
+        "tooltip-format": "Uso do Processador: {usage}%"
+    },
+    
+    // Legenda do Armazenamento
+    "disk": {
+        "format": "󰋊 {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "tooltip-format": "Espaço Usado: {percentage_used}%\nEspaço Livre: {percentage_free}GB restante"
+    },
+    
+    // Legenda da Memória RAM
+    "memory": {
+        "format": "󰍛 {percentage}%",
+        "tooltip": true,
+        "tooltip-format": "Memória RAM Usada: {percentage}%\nTotal Utilizado: {used}GB de {total}GB"
+    },
+
+    // Legenda do Volume
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "tooltip": true,
+        "tooltip-format": "Volume do Som: {volume}%"
+    },
+
+    // Legenda do Idioma do Teclado
+    "hyprland/language": {
+        "format": "󰌌 {short}",
+        "tooltip": true,
+        "tooltip-format": "Idioma do Teclado"
+    },
+
+    "clock": {
+        "format": "󰃭 {:%d/%m %H:%M}",
+        "tooltip": false
+    }
+}

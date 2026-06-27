@@ -1,0 +1,33 @@
+/* Cores baseadas no Wallpaper */
+@define-color base-dark   #4A4E5B; /* Cinza escuro do gatinho */
+@define-color pelagem     #7C829A; /* Cinza médio */
+@define-color orelhinhas  #E5A4A7; /* Rosa principal */
+@define-color manta       #F3C5C7; /* Rosa claro texturizado */
+@define-color fundo-azul  #9BB5CD; /* Azul sutil do fundo */
+@define-color bar-bg      rgba(243, 197, 199, 0.15); /* Fundo da barra semi-transparente */
+
+window#waybar {
+    background-color: @bar-bg;
+    border-bottom: 1px solid rgba(229, 164, 167, 0.2);
+    color: @base-dark;
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: @pelagem;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: @orelhinhas;
+    background-color: rgba(229, 164, 167, 0.2);
+    border-radius: 5px;
+}
+
+#custom-os_button {
+    padding: 0 10px;
+    font-size: 16px;
+}

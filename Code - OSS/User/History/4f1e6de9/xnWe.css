@@ -1,0 +1,61 @@
+/* Configuração geral da barra e fundo */
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85); /* Fundo escuro transparente */
+    border: 2px solid #ffb6c1;                 /* Borda rosa fina */
+    border-radius: 8px;                        /* Cantos arredondados */
+    color: #cdd6f4;                            /* Cor do texto geral */
+    font-family: "Sans", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Espaçamento geral dos módulos */
+#custom-logo,
+#workspaces,
+#custom-music,
+#cpu,
+#disk,
+#memory,
+#battery,
+#pulseaudio,
+#network,
+#language,
+#clock {
+    padding: 0px 10px;
+    margin: 4px 0px;
+}
+
+/* Ícone do Arch (Canto esquerdo) */
+#custom-logo {
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+/* --- Áreas de Trabalho (Workspaces) --- */
+/* Botões Inativos (visual clarinho padrão) */
+#workspaces button {
+    background-color: transparent;
+    color: rgba(205, 214, 244, 0.6); /* Clarinho transparente */
+    border-radius: 4px;
+    padding: 0px 8px;
+}
+
+/* Botão Ativo (visual rosa destacado) */
+#workspaces button.focused,
+#workspaces button.active {
+    background-color: #ffb6c1;          /* Fundo rosa sólido */
+    color: #1e1e2e;                    /* Texto escuro */
+}
+
+/* --- Módulos de Hardware --- */
+/* Estilo comum para CPU, Disk, RAM, etc. */
+#cpu, #disk, #memory, #battery, #pulseaudio, #language {
+    color: #ffb6c1; /* Texto e ícones em rosa */
+}
+
+/* --- Relógio (com Data estendida) --- */
+#clock {
+    background-color: rgba(255, 182, 193, 0.2); /* Fundo rosa sutil */
+    color: #ffb6c1;                             /* Texto rosa sólido */
+    border-radius: 4px;
+    margin-right: 6px;
+}

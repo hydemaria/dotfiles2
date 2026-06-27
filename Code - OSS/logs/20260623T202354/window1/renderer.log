@@ -1,0 +1,9 @@
+2026-06-23 20:23:56.604 [info] Started local extension host with pid 22160.
+2026-06-23 20:23:58.358 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-23 20:23:59.922 [info] [perf] Render performance baseline is 36ms
+2026-06-23 20:24:03.359 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-23 20:41:31.485 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-06-23 20:48:00.035 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-06-23 21:04:27.559 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-06-23 21:15:42.931 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/M2UwNGRhNDYtMjRjYi00NzQyLTg3YTUtY2UyZmZiNWM5NWRi. requestInProgress=false, pendingRequests=0
+2026-06-23 21:15:42.931 [info] ChatService#cancelCurrentRequestForSession: No pending request was found for session vscode-chat-session://local/M2UwNGRhNDYtMjRjYi00NzQyLTg3YTUtY2UyZmZiNWM5NWRi. requestInProgress=false, pendingRequests=0

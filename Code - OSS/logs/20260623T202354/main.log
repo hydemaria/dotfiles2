@@ -1,0 +1,7 @@
+2026-06-23 20:23:55.052 [info] StorageMainService: creating application shared storage
+2026-06-23 20:23:55.137 [info] [shared storage] Creating shared storage database at '/home/maria/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-23 20:23:55.138 [info] [shared storage] Initializing fallback application storage (path: /home/maria/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-06-23 20:23:55.156 [info] [shared storage] Fallback application storage initialized with 77 items
+2026-06-23 20:23:55.158 [info] update#setState disabled
+2026-06-23 20:23:55.158 [info] update#ctor - updates are disabled as there is no update URL
+2026-06-23 21:21:09.015 [info] Extension host with pid 22160 exited with code: 0, signal: unknown.

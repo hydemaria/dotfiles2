@@ -1,0 +1,124 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "16cd4ed73835977a357f30b6a7b45784ba147ca03aa7d2400b0d141b47734759",
+    "telemetry.devDeviceId": "4e19fa9b-8362-4cf3-82f3-3e4828d90b60",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1782257035827"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/maria/.config/hypr": "__default__profile__",
+            "file:///home/maria/.config/waybar": "__default__profile__",
+            "file:///home/maria/Documentos/teste": "__default__profile__",
+            "file:///home/maria/Documentos/databill": "__default__profile__",
+            "file:///home/maria/Documentos/projetos": "__default__profile__",
+            "file:///home/maria/%C3%81rea%20de%20trabalho/databill": "__default__profile__",
+            "file:///home/maria/databill": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1782257035827": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#25252f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#25252f",
+            "editorBackground": "#25252f",
+            "titleBarBackground": "#25252f",
+            "activityBarBackground": "#25252f",
+            "sideBarBackground": "#1e1e25",
+            "statusBarBackground": "#1e1e25",
+            "statusBarNoFolderBackground": "#1e1e25"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/maria/.config/Code - OSS/Backups/1782257035827",
+            "uiState": {
+                "mode": 0,
+                "x": 1,
+                "y": 0,
+                "width": 950,
+                "height": 530
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 270,
+            "workspaces": {
+                "949af7e6d42ab3423df8a06fc3f0615e": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "055fe5977fc15d1143c4b35f4dab0ee8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "86ea78bfd7be8c354f4612f4a8f0e4eb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5895eb3ff7d319b7dbfdb9d11a249be9": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "dec18a4b0f7538ea336163ca034e3e4e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d069ff4335e49ed6635ed9c0cc5c8dde": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "a23303b6e1ee0ccf81c6217915d8bd37": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b62e0d0db16e6bb0ba408f8aa9a3af4c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "userDataProfiles": [
+        {
+            "location": "builtin/agents",
+            "name": "Agents",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "prompts": true,
+                "mcp": true,
+                "languageModels": true,
+                "snippets": true,
+                "tasks": true,
+                "extensions": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+2026-06-23 19:43:45.647 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-23 19:43:45.647 [info]    [            1] GitLens v18.2.0  activating in Code - OSS (1.124.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|someValue.machineId|someValue.sessionId)
+2026-06-23 19:43:45.647 [info]    [            1] GitLens v18.2.0 activated [141ms]
+2026-06-23 19:43:45.647 [info]    [   7b →    9b] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [45ms]
+2026-06-23 19:43:45.651 [error]   [GIT          ] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [56ms]
+2026-06-23 19:43:45.654 [info]    [IPC          ] CLI capability published on http://127.0.0.1:33039
+2026-06-23 19:43:48.542 [info]    [CLI          ] CLI core version is 3.1.68
+2026-06-23 19:57:28.607 [error]   [GIT          ] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [6ms]

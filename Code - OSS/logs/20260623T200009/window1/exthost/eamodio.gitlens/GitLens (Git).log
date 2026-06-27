@@ -1,0 +1,8 @@
+2026-06-23 20:00:13.740 [error] [         35ms] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 20:04:29.663 [error] [          7ms] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 20:09:45.678 [error] [          6ms] [/home/maria/.config/waybar/scripts] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git
+2026-06-23 20:12:51.618 [error] [          5ms] [/home/maria/.config/rofi] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any of the parent directories): .git

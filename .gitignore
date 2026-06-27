@@ -1,0 +1,12 @@
+mozilla/
+google-chrome/
+chromium/
+code/Cache/
+code/CachedData/
+code/CachedExtension/
+code/CachedExtensions/
+code/CachedFontData/
+code/CachedV8Data/
+*cache*
+*.logmozilla/
+

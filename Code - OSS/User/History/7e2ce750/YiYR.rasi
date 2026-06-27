@@ -1,0 +1,52 @@
+configuration {
+    modi: "run";
+    font: "JetBrains Mono 11"; 
+    show-icons: false;
+}
+
+* {
+    bg: #1e1e2ecc;
+    fg: #cdd6f4; 
+    accent: #ffb6c1;
+
+    background-color: transparent;
+    text-color: @fg;
+}
+
+window {
+    background-color: #1e1e2e;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 15px; /
+    width: 400px;
+    padding: 10px;
+    location: center;
+    anchor: center;
+}
+
+inputbar {
+    children: [ entry ];
+    padding: 4px;
+    margin: 0px 0px 10px 0px;
+}
+
+entry {
+    placeholder: "Buscar...";
+    placeholder-color: #595959;
+}
+
+listview {
+    lines: 6;
+    columns: 1;
+    fixed-height: true;
+}
+
+element {
+    border-radius: 10px;
+    padding: 8px;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: #1e1e2e;
+}

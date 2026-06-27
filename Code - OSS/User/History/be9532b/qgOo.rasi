@@ -1,0 +1,32 @@
+configuration {
+    font: "JetBrains Mono 12";
+}
+
+window {
+    background-color: #1e1e2ecc;
+    border: 2px;
+    border-color: #ffb6c1;
+    border-radius: 15px;
+    width: 300px;
+    padding: 15px;
+    location: center;
+}
+
+listview {
+    lines: 2;
+    spacing: 3px;
+}
+
+element {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px;
+    text-color: #503850;
+}
+
+element selected {
+    background-color: #ffb6c1;
+    text-color: #1e1e2e;
+    border: 1px;
+
+}

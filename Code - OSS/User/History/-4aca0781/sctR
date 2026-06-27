@@ -1,0 +1,79 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 4,
+
+    // Módulos da Esquerda
+    "modules-left": ["custom/logo", "hyprland/workspaces"],
+    // Módulos do Centro
+    "modules-center": ["custom/music"],
+    // Módulos da Direita (Adicionados e reordenados)
+    "modules-right": ["cpu", "disk", "memory", "battery", "pulseaudio", "network", "hyprland/language", "clock"],
+
+    // Ícone do Logo (Canto Esquerdo)
+    "custom/logo": {
+        "format": "󰣇",
+        "tooltip": false
+    },
+
+    // Configuração das Áreas de Trabalho (Estilo Clarinho vs Rosa)
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate"
+    },
+
+    // Bloco de Música Centralizado
+    "custom/music": {
+        "format": "[ Now Playing: {} ]",
+        "escape": true,
+        "exec": "playerctl metadata --format '{{ title }} - {{ artist }}'",
+        "interval": 5,
+        "tooltip": false
+    },
+
+    // Módulos de Hardware (Novos)
+    "cpu": {
+        "format": "󰻠 CPU: {usage}%",
+        "tooltip": false
+    },
+    "disk": {
+        "format": "󰋊 DISK: {percentage_free}GB Free",
+        "path": "/",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "󰍛 RAM: {used:0.1f}GB",
+        "tooltip": false
+    },
+
+    "battery": {
+        "format": "󰁹 {capacity}%",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "󰕾 {volume}%",
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰖪",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip": false
+    },
+
+    // Módulo de Idioma (Novo)
+    "hyprland/language": {
+        "format": "{}",
+        "tooltip": false
+    },
+
+    // Módulo de Relógio com Data (Atualizado)
+    "clock": {
+        "format": "󰃭 {:%d %B %Y, %H:%M}",
+        "tooltip": false
+    }
+}

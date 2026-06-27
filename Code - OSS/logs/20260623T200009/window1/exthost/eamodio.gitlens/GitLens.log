@@ -1,0 +1,12 @@
+2026-06-23 20:00:13.661 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-23 20:00:13.661 [info]    [            1] GitLens v18.2.0  activating in Code - OSS (1.124.0) on the desktop; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|someValue.machineId|someValue.sessionId)
+2026-06-23 20:00:13.661 [info]    [            1] GitLens v18.2.0 activated [129ms]
+2026-06-23 20:00:13.733 [info]    [   7b →    9e] GlCliGitProvider.findGit Git (2.54.0) found in /usr/bin/git [27ms]
+2026-06-23 20:00:13.740 [error]   [GIT          ] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [35ms]
+2026-06-23 20:00:13.749 [info]    [IPC          ] CLI capability published on http://127.0.0.1:42439
+2026-06-23 20:00:15.384 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*1911ms] (slow)
+2026-06-23 20:00:15.385 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*1912ms] (slow)
+2026-06-23 20:00:16.624 [info]    [CLI          ] CLI core version is 3.1.68
+2026-06-23 20:04:29.663 [error]   [GIT          ] [/home/maria/.config/waybar] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [7ms]
+2026-06-23 20:09:45.678 [error]   [GIT          ] [/home/maria/.config/waybar/scripts] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [6ms]
+2026-06-23 20:12:51.617 [error]   [GIT          ] [/home/maria/.config/rofi] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any of the parent directories): .git [5ms]

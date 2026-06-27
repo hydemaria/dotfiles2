@@ -1,0 +1,34 @@
+/* Configuração geral da barra */
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85); /* Fundo escuro com a mesma transparência do Kitty */
+    border: 2px solid #ffb6c1;                 /* Borda fina em rosa pastel */
+    border-radius: 8px;                        /* Cantos arredondados suaves */
+    color: #cdd6f4;                            /* Letras claras e fáceis de ler */
+    font-family: "Sans", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Estilo de cada caixinha de informação (módulos) */
+#workspaces,
+#window,
+#battery,
+#volume,
+#clock {
+    padding: 0px 12px;
+    margin: 4px 2px;
+}
+
+/* Destaca a área de trabalho atual em rosa pastel */
+#workspaces button.focused,
+#workspaces button.active {
+    background-color: #ffb6c1;
+    color: #1e1e2e;
+    border-radius: 4px;
+}
+
+/* Deixa o relógio com um fundo sutil no canto direito */
+#clock {
+    background-color: rgba(255, 182, 193, 0.2);
+    border-radius: 4px;
+    margin-right: 6px;
+}
