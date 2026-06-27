@@ -1,4 +1,10 @@
-mozilla/
+dconf/
+evolution/
+ibus/
+pulse/
+monitors.xml
+user-dirs.*
+.gsd-keyboard.settings-portedmozilla/
 google-chrome/
 chromium/
 code/Cache/
