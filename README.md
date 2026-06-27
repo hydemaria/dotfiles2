@@ -1,6 +1,6 @@
 # Maria Luiza - Dotfiles
 
-Bem-vindo ao meu repositorio de configuracoes pessoais. Este e o meu ambiente de estudos e evolucao continua no Linux, customizado de acordo com as minhas necessidades de acessibilidade, conforto visual e produtividade.
+Bem-vindo ao meu repositório de configurações pessoais. Este é o meu ambiente de estudos e evolução contínua no Linux, customizado de acordo com as minhas necessidades de acessibilidade, conforto visual e produtividade.
 
 ---
 
@@ -40,8 +40,7 @@ Bem-vindo ao meu repositorio de configuracoes pessoais. Este e o meu ambiente de
 
 ## Estrutura do Repositorio
 
-Aqui estao organizados os meus arquivos de configuracao:
-
+Aqui estão organizados os meus arquivos de configuração:
 ```text
 dotfiles/
 ├── hypr/          # Configuracoes do gerenciador de janelas
